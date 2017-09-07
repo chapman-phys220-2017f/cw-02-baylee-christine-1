@@ -1,6 +1,6 @@
-# PHYS220 CW 2
+<div align='right'></div># PHYS220 CW 2
 
-**Author(s):** **CHANGEME**
+**Author(s):** Christine Outlaw, Baylee Mumma
 
 ## Specification
 
@@ -74,4 +74,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Christine Outlaw, Baylee Mumma

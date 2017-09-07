@@ -29,4 +29,3 @@ fl = [next(g) for _ in range(5)]
 print(fl) 
 
 
-
