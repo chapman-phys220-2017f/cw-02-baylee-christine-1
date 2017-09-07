@@ -1,4 +1,4 @@
-# PHYS220 CW 2
+<div align='right'></div># PHYS220 CW 2
 
 **Author(s):** Christine Outlaw, Baylee Mumma
 
