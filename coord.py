@@ -24,7 +24,7 @@ Using a While loop
 def coord_while(n,a,b):
     h=(b-a)/n
     x_while=[]
-    while a<b:
+    while a<=b:
         x_while.append(a)
         a = a+h
     return x_while
