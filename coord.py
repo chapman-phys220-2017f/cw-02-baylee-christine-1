@@ -9,8 +9,10 @@ CW 02
 """
 
 """
-Using a For loop
+3 ways to generate equally spaced coordinates with an interval.
 """
+
+# Using a for loop
 def coord_for(n,a,b):
     h=(b-a)/n
     x_for =[]
@@ -18,9 +20,8 @@ def coord_for(n,a,b):
         x_for.append((a+(i*h)))
     return x_for
 
-"""
-Using a While loop
-"""
+
+# Using a while loop
 def coord_while(n,a,b):
     h=(b-a)/n
     x_while=[]
@@ -30,9 +31,8 @@ def coord_while(n,a,b):
     return x_while
 
 
-"""
-Using a List Comprehension
-"""
+
+# Using a list Comprehension
 def coord_comp(n,a,b):
     h=(b-a)/n
     x_list =[(a+(i*h)) for i in range(n+1)]
