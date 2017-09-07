@@ -46,10 +46,7 @@ if __name__ == "__main__":
     n = int(input("Input the number of intervals: "))
     a = float(input("Input a start point: "))
     b = float(input("Input the end point: "))
-    print("For loop:")
-    print(coord_for(n,a,b))
-    print("While loop:")
-    print(coord_while(n,a,b))
-    print("List comprehension:")
-    print(coord_comp(n,a,b))
+    print("For loop: " + str(coord_for(n,a,b)))
+    print("While loop: " + str(coord_while(n,a,b)))
+    print("List comprehension: " + str(coord_comp(n,a,b)))
 
