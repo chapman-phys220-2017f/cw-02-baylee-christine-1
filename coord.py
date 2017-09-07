@@ -8,35 +8,48 @@ PHYS220
 CW 02
 """
 
-# Using a For loop
+"""
+Using a For loop
+"""
 def coord_for(n,a,b):
-    h = float((b-a)/n)
-    x =[]
+    h=(b-a)/n
+    x_for =[]
     for i in range(n+1):
-        x.append((a+(i*h))
-    return x
+        x_for.append((a+(i*h)))
+    return x_for
 
-# Using a While loop
+"""
+Using a While loop
+"""
 def coord_while(n,a,b):
     h=(b-a)/n
-    x=[]
+    x_while=[]
     while a<b:
-        x.append(a)
+        x_while.append(a)
         a = a+h
-    return x
+    return x_while
 
-# Using a List Comprehension
+
+"""
+Using a List Comprehension
+"""
 def coord_comp(n,a,b):
     h=(b-a)/n
-    x =[(a+(i*h)) for i in range(n+1)]
-    return x
+    x_list =[(a+(i*h)) for i in range(n+1)]
+    return x_list
 
-# Main block which takes in user input and calls the 3 previously
-# defined functions.
+"""
+Main block which takes in user input and calls the 3 previously defined functions.
+"""
 if __name__ == "__main__":
     print("Enter 3 values; n, number of intervals, a, starting point, and b, end point.")
-    n,a,b = input("Input in the order and style of n,a,b. ")
-    print("Using a for loop: "+coord_for(n,a,b))
-    print("Using a while loop: "+coord_while(n,a,b))
-    print("Using a list comprehension: "+coord_comp(n,a,b))
+    n = int(input("Input the number of intervals: "))
+    a = float(input("Input a start point: "))
+    b = float(input("Input the end point: "))
+    print("For loop:")
+    print(coord_for(n,a,b))
+    print("While loop:")
+    print(coord_while(n,a,b))
+    print("List comprehension:")
+    print(coord_comp(n,a,b))
 
