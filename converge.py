@@ -26,7 +26,7 @@ def compute_sum(tol):
 Main block calling the function and showing the value to which the sum converges to as tolerance gets smaller
 """
 if __name__ == '__main__':
-    convergence = compute_sum(tol=1e-2)
+    convergence = str(compute_sum(tol=1e-2))
     print("The sum converges at "+convergence+" when tolerance is set to 1e-2")
-    small_tol_convergence = compute_sum(tol=1e-10)
+    small_tol_convergence = str(compute_sum(tol=1e-10))
     print("The sum converges at "+small_tol_convergence+" when tolerance is set to 1e-10. This can be rounded to 1.645")
