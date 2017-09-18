@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+                                       ### Don't forget to specify python3
+
+### NOTE the following should be a block comment, not a docstring. You should also have a docstring that describes what is in the module, but this block comment is only for Chapman coding standards.
 '''
 Baylee Mumma
 mumma103@mail.chapman.edu
@@ -23,7 +26,8 @@ def fib_generator():
     while True:
         yield a
         a,b = b,a+b
-    
+
+### NOTE : the following should be in a main block
 g = fib_generator()
 fl = [next(g) for _ in range(5)]
 print(fl) 
